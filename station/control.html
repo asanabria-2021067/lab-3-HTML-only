@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Centro de Control - Estación Kepler</title>
+  </head>
+  <body>
+    <header>
+      <h1>Centro de Control</h1>
+      <nav aria-label="breadcrumb">
+        <ol>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="control.html">Centro de Control</a></li>
+        </ol>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <header>
+          <h2>Sistema de Control Principal</h2>
+          <time datetime="2247-08-15T17:54:00">15 de agosto, 2247 - 17:54 horas</time>
+        </header>
+
+        <figure>
+          <img
+            src="/angel/lab_3/images/control-room.jpg"
+            alt="Paneles de control iluminados en rojo con monitores mostrando alertas de evacuación"
+          />
+          <figcaption>La consola principal muestra el protocolo de evacuación activo</figcaption>
+        </figure>
+
+        <section>
+          <h3>Estado de la Estación</h3>
+          <p>
+            Entras al centro de control. Las pantallas parpadean con alertas rojas.
+            El zumbido de los sistemas de soporte vital es lo único que rompe el silencio.
+          </p>
+
+          <p>
+            <strong>ALERTA: PROTOCOLO DE EVACUACIÓN ACTIVADO - 47 HORAS RESTANTES</strong>
+          </p>
+
+          <details>
+            <summary>Revisar estado de sistemas críticos</summary>
+            <p><strong>Sistemas de Soporte Vital:</strong></p>
+            <progress value="85" max="100">85%</progress> Operando al 85%
+
+            <p><strong>Generador de Energía Principal:</strong></p>
+            <progress value="42" max="100">42%</progress> Fallo inminente - 42%
+
+            <p><strong>Comunicaciones Externas:</strong></p>
+            <progress value="15" max="100">15%</progress> Degradadas - 15%
+          </details>
+        </section>
+
+        <aside>
+          <h3>Bitácora del Capitán</h3>
+          <p>
+            "Si estás leyendo esto, algo ha ido terriblemente mal. No confíes en
+            las comunicaciones oficiales. La señal que detectamos no es de origen natural."
+          </p>
+        </aside>
+
+        <section>
+          <h3>¿Qué haces?</h3>
+          <nav>
+            <ul>
+              <li>
+                <a href="communications.html">Revisar las comunicaciones para entender qué pasó</a>
+              </li>
+              <li>
+                <a href="emergency.html">Ir a la estación de emergencia</a>
+              </li>
+              <li>
+                <a href="../signal/investigate.html">Investigar la señal extraña que mencionó el capitán</a>
+              </li>
+              <li>
+                <a href="../escape/pods.html">Dirigirte directamente a las cápsulas de escape</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <dialog open>
+          <h3>⚠️ Advertencia del Sistema</h3>
+          <form method="dialog">
+            <p>Acceso no autorizado detectado en el sector B. ¿Continuar con protocolo de seguridad?</p>
+            <button>Aceptar riesgo y continuar</button>
+          </form>
+        </dialog>
+      </article>
+    </main>
+
+    <footer>
+      <p>Estación Kepler - Órbita de Saturno</p>
+      <p>Elige sabiamente. Tu vida depende de ello.</p>
+    </footer>
+  </body>
+</html>

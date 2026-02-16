@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Comunicaciones - Estación Kepler</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sala de Comunicaciones</h1>
+      <nav aria-label="breadcrumb">
+        <ol>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="control.html">Centro de Control</a></li>
+          <li><a href="communications.html">Comunicaciones</a></li>
+        </ol>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <header>
+          <h2>Terminal de Comunicaciones</h2>
+          <time datetime="2247-08-15T18:12:00">15 de agosto, 2247 - 18:12 horas</time>
+        </header>
+
+        <p>
+          La sala de comunicaciones está fría y vacía. Las pantallas muestran el
+          último mensaje que alguien dejó sin enviar.
+        </p>
+
+        <section>
+          <h3>Mensajes Recientes</h3>
+
+          <details>
+            <summary>Mensaje del Comando Tierra - <time datetime="2247-08-14">Hace 1 día</time></summary>
+            <p><strong>CLASIFICADO - NIVEL ALPHA</strong></p>
+            <p>
+              "Estación Kepler, hemos detectado la misma señal. NO intenten hacer
+              contacto. Evacuen inmediatamente. Repito: NO HAGAN CONTACTO."
+            </p>
+            <p><strong>Transmisión interrumpida</strong></p>
+          </details>
+
+          <details>
+            <summary>Último mensaje del Capitán - <time datetime="2247-08-15T04:30:00">Hace 14 horas</time></summary>
+            <p>
+              "A quien encuentre esto: La tripulación no evacuó por error. Alguien
+              respondió a la señal. Ahora ellos están... diferentes. Si ves luces
+              azules en los pasillos, corre."
+            </p>
+          </details>
+
+          <details>
+            <summary>Mensaje automático del sector de cápsulas</summary>
+            <p><strong>Estado de cápsulas de escape:</strong></p>
+            <progress value="67" max="100">67%</progress>
+            <p>4 de 6 cápsulas disponibles - 67% capacidad</p>
+            <p><em>Nota: 2 cápsulas fueron lanzadas hace 36 horas</em></p>
+          </details>
+        </section>
+
+        <figure>
+          <img
+            src="/angel/lab_3/images/terminal.jpg"
+            alt="Terminal de comunicaciones con texto parpadeante en pantalla"
+          />
+          <figcaption>El último mensaje sin enviar aún parpadea en la pantalla</figcaption>
+        </figure>
+
+        <aside>
+          <h3>Señal de emergencia activa</h3>
+          <p>
+            Detectas una baliza de emergencia personal activa en el sector de ingeniería.
+            Alguien más podría estar vivo en la estación.
+          </p>
+        </aside>
+
+        <section>
+          <h3>Tus opciones</h3>
+          <nav>
+            <ul>
+              <li>
+                <a href="../signal/investigate.html">Investigar la misteriosa señal que causó todo esto</a>
+              </li>
+              <li>
+                <a href="emergency.html">Buscar sobrevivientes en la estación de emergencia</a>
+              </li>
+              <li>
+                <a href="../escape/decision.html">Ir a las cápsulas de escape inmediatamente</a>
+              </li>
+              <li>
+                <a href="control.html">Regresar al centro de control</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <dialog open>
+          <h3>Nuevo mensaje entrante...</h3>
+          <form method="dialog">
+            <p>"...ayuda... sector de ingeniería... no puedo... están aquí..."</p>
+            <p><em>Transmisión cortada</em></p>
+            <button>Cerrar</button>
+          </form>
+        </dialog>
+      </article>
+    </main>
+
+    <footer>
+      <p>Estación Kepler - Comunicaciones comprometidas</p>
+      <p>Tiempo restante: 46 horas</p>
+    </footer>
+  </body>
+</html>
